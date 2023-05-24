@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonEx1 {
+  padding: 10px;
+  background-color: darkgray;
+  border-radius: 20%;
+}
+
+.buttonEx2 {
+  padding: 10px;
+  background-color: darkgray;
+  border-radius: 20%;
+}
+
+.ex3Button {
+  padding: 10px;
+  background-color: darkgray;
+  border-radius: 20%;
+}
+
+/* .outputText {
+  border: 2px solid red;
+} */

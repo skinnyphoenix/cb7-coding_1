@@ -1,0 +1,23 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: aqua;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+}
+.es1 {
+  background-color: orange;
+}
+
+.es2 {
+  background-color: orange;
+}

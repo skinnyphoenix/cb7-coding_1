@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.backgroundLogin input {
+  display: flex;
+  margin-bottom: 5px;
+  border: none;
+  border-radius: 7px;
+  padding: 4px;
+}
+
+.backgroundLogin:hover {
+  box-shadow: 0 8px 24px 0 rgb(255 235 167 / 20%);
+  transition: all 0.3s ease-in-out;
+}
+
+.backgroundLogin button {
+  border: none;
+  border-radius: 7px;
+  padding: 3px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 69, 121, 1) 0%,
+    rgba(3, 157, 203, 1) 40%,
+    rgba(2, 168, 213, 1) 80%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+body button {
+  border: 1px solid red;
+  border: none;
+  border-radius: 5px;
+  padding: 3px;
+}
+.backgroundLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vh;
+  height: 100vh;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 69, 121, 1) 0%,
+    rgba(3, 157, 203, 1) 40%,
+    rgba(2, 168, 213, 1) 80%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.wrapperProduct {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 12px;
+  width: 50%;
+  height: 90px;
+  margin-top: 17px;
+  background-color: aliceblue;
+  font-family: "Lora", serif;
+  font-size: smaller;
+}
+//********************************************
+*/ @media only screen and (max-width: 768px) {
+  .backgroundLogin input {
+    display: flex;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 7px;
+    padding: 4px;
+  }
+
+  .backgroundLogin:hover {
+    box-shadow: 0 8px 24px 0 rgb(255 235 167 / 20%);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .backgroundLogin button {
+    border: none;
+    border-radius: 7px;
+    padding: 3px;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+  .backgroundLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vh;
+    height: 100vh;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(9, 69, 121, 1) 0%,
+      rgba(3, 157, 203, 1) 40%,
+      rgba(2, 168, 213, 1) 80%,
+      rgba(0, 212, 255, 1) 100%
+    );
+  }
+
+  .wrapperProduct {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 12px;
+    width: 50%;
+    height: 100px;
+    gap: 10px;
+    margin-top: 20px;
+  }
+}

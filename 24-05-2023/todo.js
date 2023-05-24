@@ -17,6 +17,7 @@ const createEl = (type, cls = null, textContent = null, parent, ...attrs) => {
   element.textContent = textContent;
   attrs.length > 0 ? attrs.forEach((attr) => element.setAttribute(attr?.name, attr?.value)) : " ";
   parent.append(element);
+  console.log("ciao");
 
   return element;
 };

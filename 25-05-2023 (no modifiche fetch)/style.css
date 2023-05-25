@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    min-height: 100vh;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(29, 9, 121, 1) 0%, rgba(3, 157, 203, 1) 100%, rgba(2, 168, 213, 1) 100%, rgba(0, 212, 255, 1) 100%);
+  }
+
+  .wrapperEl {
+    height: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-grow: 1;
+    gap: 15px;
+  }
+
+  h3 {
+    margin-bottom: 15px;
+  }
+
+  input {
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 12px;
+  }
+  button {
+    margin-top: 15px;
+    border: 1px lightgray;
+    padding: 8px;
+    border-radius: 12px;
+  }
+
+  .wrapperToDo {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+    border: 1px solid #00d4ff;
+    border-radius: 12px;
+  }
+
+  .toDoText {
+    display: flex;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    color: #00d4ff;
+  }
+
+  .wrapperToDoList {
+    gap: 5px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    align-items: flex-start;
+    overflow-y: auto;
+  }
+
+  .deleteBtn {
+    cursor: pointer;
+  }
+
+  .inputDiv {
+    display: flex;
+    gap: 10px;
+  }
+
+  .deleteBtn {
+    margin-top: 5px;
+    border-radius: 12px;
+  }
+}

@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.mainContainer {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  display: 1px solid red;
+}
+
+.navBar {
+  padding: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 17%;
+  border: 1px solid blue;
+  gap: 5px;
+}
+
+.mainLogo {
+  margin-top: 15px;
+  margin-left: 15px;
+  padding: 10px;
+  width: 17%;
+  fill: white;
+}
+
+.icon__1 {
+  margin-top: 35px;
+  display: flex;
+  width: 80%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.icon__1:hover {
+  border: 1px solid grey;
+  border-radius: 12px;
+}
+
+.icon__1 h2 {
+  color: white;
+  width: 100%;
+  height: 70%;
+  text-align: left;
+}
+.icon__1 svg {
+  fill: white;
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 70%;
+}
+.icon__2 {
+  margin-top: 25px;
+  display: flex;
+  width: 80%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.icon__2:hover {
+  border: 1px solid grey;
+  border-radius: 12px;
+}
+
+.icon__2 h2 {
+  color: white;
+  width: 100%;
+  height: 70%;
+  text-align: left;
+}
+.icon__2 svg {
+  fill: white;
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 70%;
+}
+
+.icon__3 {
+  margin-top: 25px;
+  display: flex;
+  width: 80%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.icon__3:hover {
+  border: 1px solid grey;
+  border-radius: 12px;
+}
+
+.icon__3 h2 {
+  color: white;
+  width: 100%;
+  height: 70%;
+  text-align: left;
+}
+.icon__3 svg {
+  fill: white;
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 70%;
+}
+
+.icon__4 {
+  margin-top: 25px;
+  display: flex;
+  width: 90%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.icon__4:hover {
+  border: 1px solid grey;
+  border-radius: 12px;
+}
+
+.icon__4 h2 {
+  color: white;
+  width: 90%;
+  height: 70%;
+  text-align: center;
+}
+.icon__4 svg {
+  fill: white;
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 70%;
+}
+
+.icon__5 {
+  margin-top: 25px;
+  display: flex;
+  width: 90%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.icon__5:hover {
+  border: 1px solid grey;
+  border-radius: 12px;
+}
+
+.icon__5 h2 {
+  color: white;
+  width: 120%;
+  height: 70%;
+  text-align: center;
+}
+.icon__5 svg {
+  fill: white;
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 70%;
+}
+
+.icon__6 {
+  margin-top: 25px;
+  display: flex;
+  width: 90%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.icon__6:hover {
+  border: 1px solid grey;
+  border-radius: 12px;
+}
+
+.icon__6 h2 {
+  color: white;
+  width: 120%;
+  height: 70%;
+  text-align: center;
+}
+.icon__6 svg {
+  fill: white;
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 70%;
+}
+
+.icon__7 {
+  margin-top: 25px;
+  display: flex;
+  width: 90%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.icon__7:hover {
+  border: 1px solid grey;
+  border-radius: 12px;
+}
+
+.icon__7 h2 {
+  color: white;
+  width: 120%;
+  height: 70%;
+  text-align: center;
+}
+.icon__7 svg {
+  fill: white;
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 70%;
+}
+.icon__8 {
+  margin-top: 25px;
+  display: flex;
+  width: 90%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.icon__8:hover {
+  border: 1px solid grey;
+  border-radius: 12px;
+}
+
+.icon__8 h2 {
+  color: white;
+  width: 120%;
+  height: 70%;
+  text-align: center;
+}
+.icon__8 svg {
+  fill: white;
+  /* border: 1px solid red; */
+  width: 100%;
+  height: 70%;
+}
+
+.bottom__profile__nav {
+  width: 100%;
+  height: 100px;
+  padding: 2px;
+  display: flex;
+
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+.bottom__profile__nav h3 {
+  color: white;
+}
+
+.bottom__profile__nav img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-right: 15px;
+}
